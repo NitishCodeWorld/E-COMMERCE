@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.login form{
+    width: 420px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.login .input-field{
+    padding: 0px 20px;
+}
+.login form label{
+    padding-left: 5px;
+}
+#form-register-heading{
+    border-bottom: 2px solid gray;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login form p{
+    color: red;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+#form-login-heading{
+    border-bottom: 2px solid gray;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

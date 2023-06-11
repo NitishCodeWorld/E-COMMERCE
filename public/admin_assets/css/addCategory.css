@@ -1,0 +1,26 @@
+.title h4 span{
+    font-size: 16px;
+}
+.title h4 span a{
+    text-decoration: none;
+}
+#add-category-page{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+#add-category-page form input[type='text'], input[type='file'], input[type='date']{
+    height: 42px;
+    font-size: 14px;
+}
+#add-category-page form input[type='submit']{
+    border: none;
+    font-size: 14px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 9px 15px;
+    background-color: #fd683e;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-left: 10px;
+}
