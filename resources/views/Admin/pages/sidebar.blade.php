@@ -16,14 +16,14 @@
                         <a href="javascript:void(0)" onclick="showMenu()"><i class="fas fa-certificate"></i> <span
                                 class="ml-1">Category</span> <i id="drop" class="fas fa-angle-right"></i></a>
                         <div id="submenu">
-                            <a href="{{url('admin/addcategory')}}"><i class="far fa-circle"></i> <span class="ml-2">Add
+                            <a href="{{url('admin/add-category')}}"><i class="far fa-circle"></i> <span class="ml-2">Add
                                     Catagory</span></a>
                         </div>
 
                         <a href="javascript:void(0)" onclick="showMenu1()"><i class="fab fa-product-hunt"></i> <span
                                 class="ml-1">Product</span> <i id="drop1" class="fas fa-angle-right"></i></a>
                         <div id="submenu1">
-                            <a href="javascript:void(0)"><i class="far fa-circle"></i> <span class="ml-2">Add
+                            <a href="{{url('admin/add-product')}}"><i class="far fa-circle"></i> <span class="ml-2">Add
                                     Product</span></a>
                             <a href="javascript:void(0)"><i class="far fa-circle"></i> <span class="ml-2">View
                                     Product</span></a>

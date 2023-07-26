@@ -25,7 +25,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/dashboard', 'Admin.dashboard')->name('dashboard')->middleware('adminauth');
 
-Route::view('admin/addcategory', 'Admin.addcategory')->middleware('adminauth');
+Route::view('admin/add-category', 'Admin.addcategory')->middleware('adminauth');
+
+Route::view('admin/add-product','Admin.addProduct')->middleware('adminauth');
 
 Route::get('/admin', [AdminController::class, 'adminLogin'])->name('adminLoginPage');
 
